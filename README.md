@@ -1,4 +1,15 @@
-Customer Management System (MongoDB & C#)Bu proje, C# ve MongoDB kullanılarak geliştirilmiş, müşteri verilerini NoSQL veritabanı üzerinde esnek ve hızlı bir şekilde yönetmeyi sağlayan bir masaüstü/konsol uygulamasıdır.  🚀 ÖzelliklerMüşteri Ekleme: Yeni müşteri bilgilerini MongoDB koleksiyonuna kaydetme.Müşteri Listeleme & Arama: Kayıtlı müşterileri çekme ve filtreleme.Müşteri Güncelleme: Var olan müşteri verilerini dinamik olarak güncelleme.Müşteri Silme: Belirtilen müşteri kaydını veritabanından kaldırma.NoSQL Entegrasyonu: Esnek veri yapısı ve hızlı CRUD işlemleri.🛠️ Teknolojiler & AraçlarDil: C# (.NET Core / .NET Framework)  Veritabanı: MongoDB  IDE: Visual Studio 2022 / 2025  Kütüphaneler: MongoDB.Driver📁 Proje YapısıPlaintext├── MongoDb/                 # Proje kaynak kodları ve C# dosyaları
+Customer Management System (MongoDB & C#)Bu proje, C# ve MongoDB kullanılarak geliştirilmiş, müşteri verilerini NoSQL veritabanı üzerinde esnek ve hızlı bir şekilde yönetmeyi sağlayan bir masaüstü/konsol uygulamasıdır.  
+🚀 Özellikler
+Müşteri Ekleme: Yeni müşteri bilgilerini MongoDB koleksiyonuna kaydetme.
+Müşteri Listeleme & Arama: Kayıtlı müşterileri çekme ve filtreleme.
+Müşteri Güncelleme: Var olan müşteri verilerini dinamik olarak güncelleme.
+Müşteri Silme: Belirtilen müşteri kaydını veritabanından kaldırma.
+NoSQL Entegrasyonu: Esnek veri yapısı ve hızlı CRUD işlemleri.
+🛠️ Teknolojiler & AraçlarDil: C# (.NET Core / .NET Framework)  
+Veritabanı: MongoDB  IDE: Visual Studio 2022 / 2025  
+Kütüphaneler: MongoDB.Driver📁 Proje Yapısı
+Plaintext
+├── MongoDb/        # Proje kaynak kodları ve C# dosyaları
 │   ├── MongoDb.csproj       # C# Proje yapılandırması
 │   └── ...                  # Modeller, Servisler ve UI/Form kodları
 ├── MongoDb.sln              # Visual Studio Solution dosyası
